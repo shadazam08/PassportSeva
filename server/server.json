@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "passportseva",
+            "script": "./index.js",
+            "watch": true,
+            "ignore_watch": [
+                "node_modules"
+            ],
+            "instances": 1,
+            "exec_mode": "cluster",
+            "log_date_format": "DD-MM-YYYY HH:mm",
+            "error_file": "./error/error.log",
+            "out_file": "./error/out.log",
+            "vizion": true,
+            "merge_logs": true
+        }
+    ]
+}
