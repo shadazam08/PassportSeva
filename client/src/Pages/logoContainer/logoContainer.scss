@@ -1,0 +1,23 @@
+.Logo_Containter {
+    display: flex;
+    width: 100%;
+    // float: left;
+
+    .Logo_H1 {
+        color: #3a3838;
+        font-size: 25px;
+    }
+
+    .Logo_H4 {
+        color: #656565;
+        font-size: 12px;
+    }
+
+    .leftbgImage {
+        background-image: url('../../image/emblem_new.png');
+    }
+
+    .rightbgImage {
+        background-image: url('../../image/passportSeva.gif');
+    }
+}

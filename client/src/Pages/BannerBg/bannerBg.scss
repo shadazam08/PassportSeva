@@ -1,0 +1,127 @@
+.Grey_Banner_BG {
+    background-color: #f7f7f7;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    border: #b7cdd9 solid 1px;
+
+    .bullets_New li a,
+    a {
+        color: #010101;
+        text-decoration: none;
+    }
+
+    .Apply_Container {
+        float: left;
+        width: 352px;
+        margin: 0px 0 0 0px;
+
+        .main_button_typ_002 {
+            position: relative;
+            width: 329px;
+            height: 50px;
+            border: #ad4d50 solid 1px;
+            margin: 0 0 0 8px;
+            float: left;
+            background-color: #ad4d50;
+            cursor: pointer;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main_button_typ_001 {
+            position: relative;
+            width: 329px;
+            height: 50px;
+            border: #4CAF50 solid 1px;
+            margin: 0 0 0 8px;
+            float: left;
+            background-color: #4CAF50;
+            cursor: pointer;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main_button_typ_006 {
+            position: relative;
+            width: 329px;
+            height: 50px;
+            border: #009688 solid 1px;
+            margin: 0 0 0 8px;
+            float: left;
+            background-color: #009688;
+            cursor: pointer;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main_button_typ_005 {
+            position: relative;
+            width: 329px;
+            height: 50px;
+            border: #d28808 solid 1px;
+            margin: 0 0 0 8px;
+            float: left;
+            background-color: #d28808;
+            cursor: pointer;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .imageUser {
+            background-image: url('../../image/add-user-2-xl_30x30.png');
+        }
+
+        .imageLogin {
+            background-image: url('../../image/padlock-9-xxl_30x30.png');
+        }
+
+        .imageCheck {
+            background-image: url('../../image/today-xl_30x30.png');
+        }
+
+        .imageTrack {
+            background-image: url('../../image/text-file-4-xxl_30x30.png');
+        }
+    }
+
+    .sliderb_container {
+        width: calc(100% - 370px);
+        float: right;
+
+        .carousel-indicators {
+            justify-content: flex-end;
+            margin-right: 0;
+        }
+
+        .carousel-item:nth-child(odd) {
+            animation: slideInFromLeft 1s ease;
+        }
+
+        .custom-carousel .carousel-item:nth-child(even) {
+            animation: slideInFromRight 1s ease;
+        }
+
+    }
+
+    /* Define different animations for each carousel item */
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slideInFromRight {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+}

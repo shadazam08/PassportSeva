@@ -1,0 +1,31 @@
+.topMostBar {
+    background-color: rgb(0, 94, 165);
+    color: #fff;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    span {
+        margin: 5px;
+    }
+
+    .texttoggler {
+        position: relative;
+
+        .hide {
+            opacity: 0;
+            transition: opacity 0.3s ease; // Adding transition for smooth animation
+            position: absolute; // Position the tooltip absolutely
+            top: 100%; // Position the tooltip below the parent element
+            left: 0; // Align the tooltip with the left edge of the parent element
+        }
+
+        &:focus .hide {
+            opacity: 1;
+        }
+    }
+}
