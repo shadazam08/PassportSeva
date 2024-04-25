@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './bannerBg.scss'
 import Button from 'react-bootstrap/esm/Button';
-
+// Shad Azam
 const BannerBg = () => {
     return (
         <div className='container-fluid'>
